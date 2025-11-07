@@ -1,7 +1,11 @@
 import Image from "next/image";
+import HomePage from "./_component/Home";
+
 
 export default function Home() {
   return (
-    <div className="text-6xl bg-amber-300">title here</div>
+    <div className="w-full h-full">
+      <HomePage/>
+    </div>
   );
 }
