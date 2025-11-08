@@ -5,7 +5,7 @@ import p2 from '../../../public/ghibli-art-1759341352949.png'
 import p3 from '../../../public/signin-DDAHRbMp.jpg'
 import p4 from '../../../public/signup-B42pXhK5.jpg'
 
-const Images = () => {
+const AIImages = () => {
   return (
     <div className='flex flex-1'>
       <div className="w-36 h-36 relative">
@@ -21,4 +21,4 @@ const Images = () => {
   )
 }
 
-export default Images
+export default AIImages
